@@ -46,6 +46,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: MCPServer
+  url: mcp/alltrails-mcp.yml
 - type: DomainSecurity
   url: security/alltrails-domain-security.yml
 - type: Website
