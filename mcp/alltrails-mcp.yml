@@ -1,14 +1,13 @@
 generated: '2026-07-17'
 method: searched
 source: https://www.npmjs.com/package/alltrails-mcp
-status: unofficial
+status: third-party
+status_raw: unofficial
 official: false
-note: >-
-  AllTrails does not publish a first-party hosted/remote MCP server. The only MCP
-  server found is a third-party, community-built package (author self-described as
-  "AI / Claude Code"), not affiliated with or endorsed by AllTrails. It is recorded
-  here for discovery only and is deliberately NOT wired as a common[].type MCPServer
-  pointer, since it is not the provider's own server.
+note: AllTrails does not publish a first-party hosted/remote MCP server. The only MCP server found is
+  a third-party, community-built package (author self-described as "AI / Claude Code"), not affiliated
+  with or endorsed by AllTrails. It is recorded here for discovery only and is deliberately NOT wired
+  as a common[].type MCPServer pointer, since it is not the provider's own server.
 server:
   name: alltrails-mcp
   transport: stdio
@@ -19,3 +18,8 @@ server:
   repository: https://github.com/chrischall/alltrails-mcp
   license: MIT
 tools: []
+deployment:
+  mode: third-party
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
